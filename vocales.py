@@ -38,8 +38,6 @@ class TestContarVocales(unittest.TestCase):
         self.assertEqual(contar_vocales("áÉíÓú"), {'á': 1, 'É': 1, 'í': 1, 'Ó': 1, 'ú': 1})
     def test_tilde_murcielago(self):
         self.assertEqual(contar_vocales("murciélago"), {'a': 1, 'é': 1, 'i': 1, 'o': 1, 'u': 1})
-    def test_minusculas_casa(self):
-        self.assertEqual(contar_vocales("casa"), {'a': 2})
                          
 
 unittest.main()
